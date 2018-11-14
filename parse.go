@@ -214,5 +214,5 @@ func isTokenChar(r rune) bool {
 }
 
 func isNotTokenChar(r rune) bool {
-	return !isTokenChar(r)
+	return !isTokenChar(r) && r != ':'
 }
